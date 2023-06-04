@@ -24,6 +24,17 @@ This Node.js script allows you to download a video from YouTube in MP4 format. f
 ## Notes
 
 - The script requires the `ffmpeg` library to be installed as a system library on your computer.
+
+## How to install FFMPEG
+
+Here are some guides:
+
+Windows: https://phoenixnap.com/kb/ffmpeg-windows
+Mac: https://phoenixnap.com/kb/ffmpeg-mac
+Linux (Ubuntu): https://phoenixnap.com/kb/install-ffmpeg-ubuntu
+Linux (All accept Ubuntu): https://www.tecmint.com/install-ffmpeg-in-linux/
+
+## More notes 
 - On Windows, the script requires a special configuration to run `ffmpeg` due to Electron packaging.
 - The temporary `video.mp4`or `audio.mp4` file used during the conversion process will be deleted automatically after the audio file is created.
 
