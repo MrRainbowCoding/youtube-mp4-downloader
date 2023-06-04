@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.11.4"
+  },
+  "name": "youtube-downloader",
+  "description": "The working youtube downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "ytdl"
+  ],
+  "author": "Rainbow Productions",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRainbowCoding/youtube-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrRainbowCoding/youtube-downloader/issues"
+  },
+  "homepage": "https://github.com/MrRainbowCoding/youtube-downloader#readme"
+}
